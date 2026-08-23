@@ -1,0 +1,13 @@
+# Generated raw CSV files (Phase 5+)
+data/raw/*.csv
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and secrets
+.env
+*.token

@@ -1,0 +1,701 @@
+manifest_id,dataset,business_key,source_row_number,issue_code,rule_category,field_name,notes
+DQ-0001,customers,CUST-00001,1,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0002,customers,CUST-00002,2,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0003,customers,CUST-00003,3,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0004,customers,CUST-00004,4,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0005,customers,CUST-00005,5,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0006,customers,CUST-00006,6,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0007,customers,CUST-00007,7,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0008,customers,CUST-00008,8,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0009,customers,CUST-00009,9,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0010,customers,CUST-00010,10,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0011,customers,CUST-00011,11,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0012,customers,CUST-00012,12,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0013,customers,CUST-00013,13,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0014,customers,CUST-00014,14,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0015,customers,CUST-00015,15,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0016,customers,CUST-00016,16,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0017,customers,CUST-00017,17,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0018,customers,CUST-00018,18,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0019,customers,CUST-00019,19,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0020,customers,CUST-00020,20,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0021,customers,CUST-00021,21,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0022,customers,CUST-00022,22,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0023,customers,CUST-00023,23,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0024,customers,CUST-00024,24,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0025,customers,CUST-00025,25,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0026,customers,CUST-00026,26,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0027,customers,CUST-00027,27,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0028,customers,CUST-00028,28,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0029,customers,CUST-00029,29,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0030,customers,CUST-00030,30,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0031,customers,CUST-00031,31,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0032,customers,CUST-00032,32,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0033,customers,CUST-00033,33,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0034,customers,CUST-00034,34,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0035,customers,CUST-00035,35,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0036,customers,CUST-00036,36,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0037,customers,CUST-00037,37,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0038,customers,CUST-00038,38,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0039,customers,CUST-00039,39,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0040,customers,CUST-00040,40,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0041,customers,CUST-00041,41,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0042,customers,CUST-00042,42,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0043,customers,CUST-00043,43,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0044,customers,CUST-00044,44,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0045,customers,CUST-00045,45,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0046,customers,CUST-00046,46,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0047,customers,CUST-00047,47,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0048,customers,CUST-00048,48,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0049,customers,CUST-00049,49,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0050,customers,CUST-00050,50,CUST_EMAIL_MISSING,completeness,email,Injected blank email for completeness failure
+DQ-0051,customers,CUST-09901,9901,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0052,customers,CUST-09902,9902,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0053,customers,CUST-09903,9903,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0054,customers,CUST-09904,9904,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0055,customers,CUST-09905,9905,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0056,customers,CUST-09906,9906,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0057,customers,CUST-09907,9907,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0058,customers,CUST-09908,9908,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0059,customers,CUST-09909,9909,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0060,customers,CUST-09910,9910,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0061,customers,CUST-09911,9911,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0062,customers,CUST-09912,9912,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0063,customers,CUST-09913,9913,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0064,customers,CUST-09914,9914,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0065,customers,CUST-09915,9915,CUST_ID_DUPLICATE,uniqueness,customer_id,Original row in duplicate customer_id pair
+DQ-0066,customers,CUST-09901,10001,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0067,customers,CUST-09902,10002,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0068,customers,CUST-09903,10003,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0069,customers,CUST-09904,10004,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0070,customers,CUST-09905,10005,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0071,customers,CUST-09906,10006,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0072,customers,CUST-09907,10007,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0073,customers,CUST-09908,10008,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0074,customers,CUST-09909,10009,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0075,customers,CUST-09910,10010,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0076,customers,CUST-09911,10011,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0077,customers,CUST-09912,10012,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0078,customers,CUST-09913,10013,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0079,customers,CUST-09914,10014,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0080,customers,CUST-09915,10015,CUST_ID_DUPLICATE,uniqueness,customer_id,Appended duplicate customer_id row
+DQ-0081,orders,ORD-0000001,1,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0082,orders,ORD-0000002,2,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0083,orders,ORD-0000003,3,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0084,orders,ORD-0000004,4,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0085,orders,ORD-0000005,5,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0086,orders,ORD-0000006,6,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0087,orders,ORD-0000007,7,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0088,orders,ORD-0000008,8,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0089,orders,ORD-0000009,9,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0090,orders,ORD-0000010,10,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0091,orders,ORD-0000011,11,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0092,orders,ORD-0000012,12,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0093,orders,ORD-0000013,13,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0094,orders,ORD-0000014,14,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0095,orders,ORD-0000015,15,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0096,orders,ORD-0000016,16,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0097,orders,ORD-0000017,17,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0098,orders,ORD-0000018,18,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0099,orders,ORD-0000019,19,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0100,orders,ORD-0000020,20,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0101,orders,ORD-0000021,21,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0102,orders,ORD-0000022,22,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0103,orders,ORD-0000023,23,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0104,orders,ORD-0000024,24,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0105,orders,ORD-0000025,25,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0106,orders,ORD-0000026,26,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0107,orders,ORD-0000027,27,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0108,orders,ORD-0000028,28,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0109,orders,ORD-0000029,29,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0110,orders,ORD-0000030,30,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0111,orders,ORD-0000031,31,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0112,orders,ORD-0000032,32,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0113,orders,ORD-0000033,33,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0114,orders,ORD-0000034,34,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0115,orders,ORD-0000035,35,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0116,orders,ORD-0000036,36,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0117,orders,ORD-0000037,37,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0118,orders,ORD-0000038,38,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0119,orders,ORD-0000039,39,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0120,orders,ORD-0000040,40,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0121,orders,ORD-0000041,41,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0122,orders,ORD-0000042,42,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0123,orders,ORD-0000043,43,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0124,orders,ORD-0000044,44,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0125,orders,ORD-0000045,45,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0126,orders,ORD-0000046,46,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0127,orders,ORD-0000047,47,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0128,orders,ORD-0000048,48,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0129,orders,ORD-0000049,49,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0130,orders,ORD-0000050,50,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0131,orders,ORD-0000051,51,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0132,orders,ORD-0000052,52,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0133,orders,ORD-0000053,53,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0134,orders,ORD-0000054,54,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0135,orders,ORD-0000055,55,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0136,orders,ORD-0000056,56,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0137,orders,ORD-0000057,57,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0138,orders,ORD-0000058,58,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0139,orders,ORD-0000059,59,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0140,orders,ORD-0000060,60,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0141,orders,ORD-0000061,61,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0142,orders,ORD-0000062,62,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0143,orders,ORD-0000063,63,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0144,orders,ORD-0000064,64,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0145,orders,ORD-0000065,65,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0146,orders,ORD-0000066,66,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0147,orders,ORD-0000067,67,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0148,orders,ORD-0000068,68,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0149,orders,ORD-0000069,69,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0150,orders,ORD-0000070,70,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0151,orders,ORD-0000071,71,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0152,orders,ORD-0000072,72,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0153,orders,ORD-0000073,73,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0154,orders,ORD-0000074,74,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0155,orders,ORD-0000075,75,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0156,orders,ORD-0000076,76,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0157,orders,ORD-0000077,77,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0158,orders,ORD-0000078,78,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0159,orders,ORD-0000079,79,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0160,orders,ORD-0000080,80,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0161,orders,ORD-0000081,81,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0162,orders,ORD-0000082,82,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0163,orders,ORD-0000083,83,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0164,orders,ORD-0000084,84,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0165,orders,ORD-0000085,85,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0166,orders,ORD-0000086,86,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0167,orders,ORD-0000087,87,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0168,orders,ORD-0000088,88,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0169,orders,ORD-0000089,89,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0170,orders,ORD-0000090,90,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0171,orders,ORD-0000091,91,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0172,orders,ORD-0000092,92,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0173,orders,ORD-0000093,93,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0174,orders,ORD-0000094,94,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0175,orders,ORD-0000095,95,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0176,orders,ORD-0000096,96,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0177,orders,ORD-0000097,97,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0178,orders,ORD-0000098,98,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0179,orders,ORD-0000099,99,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0180,orders,ORD-0000100,100,ORD_CUST_ID_MISSING,completeness,customer_id,Injected blank customer_id for completeness failure
+DQ-0181,orders,ORD-0000101,101,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0182,orders,ORD-0000102,102,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0183,orders,ORD-0000103,103,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0184,orders,ORD-0000104,104,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0185,orders,ORD-0000105,105,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0186,orders,ORD-0000106,106,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0187,orders,ORD-0000107,107,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0188,orders,ORD-0000108,108,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0189,orders,ORD-0000109,109,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0190,orders,ORD-0000110,110,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0191,orders,ORD-0000111,111,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0192,orders,ORD-0000112,112,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0193,orders,ORD-0000113,113,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0194,orders,ORD-0000114,114,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0195,orders,ORD-0000115,115,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0196,orders,ORD-0000116,116,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0197,orders,ORD-0000117,117,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0198,orders,ORD-0000118,118,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0199,orders,ORD-0000119,119,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0200,orders,ORD-0000120,120,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0201,orders,ORD-0000121,121,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0202,orders,ORD-0000122,122,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0203,orders,ORD-0000123,123,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0204,orders,ORD-0000124,124,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0205,orders,ORD-0000125,125,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0206,orders,ORD-0000126,126,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0207,orders,ORD-0000127,127,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0208,orders,ORD-0000128,128,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0209,orders,ORD-0000129,129,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0210,orders,ORD-0000130,130,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0211,orders,ORD-0000131,131,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0212,orders,ORD-0000132,132,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0213,orders,ORD-0000133,133,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0214,orders,ORD-0000134,134,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0215,orders,ORD-0000135,135,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0216,orders,ORD-0000136,136,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0217,orders,ORD-0000137,137,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0218,orders,ORD-0000138,138,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0219,orders,ORD-0000139,139,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0220,orders,ORD-0000140,140,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0221,orders,ORD-0000141,141,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0222,orders,ORD-0000142,142,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0223,orders,ORD-0000143,143,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0224,orders,ORD-0000144,144,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0225,orders,ORD-0000145,145,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0226,orders,ORD-0000146,146,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0227,orders,ORD-0000147,147,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0228,orders,ORD-0000148,148,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0229,orders,ORD-0000149,149,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0230,orders,ORD-0000150,150,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0231,orders,ORD-0000151,151,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0232,orders,ORD-0000152,152,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0233,orders,ORD-0000153,153,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0234,orders,ORD-0000154,154,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0235,orders,ORD-0000155,155,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0236,orders,ORD-0000156,156,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0237,orders,ORD-0000157,157,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0238,orders,ORD-0000158,158,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0239,orders,ORD-0000159,159,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0240,orders,ORD-0000160,160,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0241,orders,ORD-0000161,161,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0242,orders,ORD-0000162,162,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0243,orders,ORD-0000163,163,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0244,orders,ORD-0000164,164,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0245,orders,ORD-0000165,165,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0246,orders,ORD-0000166,166,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0247,orders,ORD-0000167,167,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0248,orders,ORD-0000168,168,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0249,orders,ORD-0000169,169,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0250,orders,ORD-0000170,170,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0251,orders,ORD-0000171,171,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0252,orders,ORD-0000172,172,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0253,orders,ORD-0000173,173,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0254,orders,ORD-0000174,174,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0255,orders,ORD-0000175,175,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0256,orders,ORD-0000176,176,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0257,orders,ORD-0000177,177,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0258,orders,ORD-0000178,178,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0259,orders,ORD-0000179,179,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0260,orders,ORD-0000180,180,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0261,orders,ORD-0000181,181,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0262,orders,ORD-0000182,182,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0263,orders,ORD-0000183,183,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0264,orders,ORD-0000184,184,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0265,orders,ORD-0000185,185,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0266,orders,ORD-0000186,186,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0267,orders,ORD-0000187,187,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0268,orders,ORD-0000188,188,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0269,orders,ORD-0000189,189,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0270,orders,ORD-0000190,190,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0271,orders,ORD-0000191,191,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0272,orders,ORD-0000192,192,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0273,orders,ORD-0000193,193,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0274,orders,ORD-0000194,194,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0275,orders,ORD-0000195,195,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0276,orders,ORD-0000196,196,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0277,orders,ORD-0000197,197,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0278,orders,ORD-0000198,198,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0279,orders,ORD-0000199,199,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0280,orders,ORD-0000200,200,ORD_PROD_ID_MISSING,completeness,product_id,Injected blank product_id for completeness failure
+DQ-0281,orders,ORD-0000201,201,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-001
+DQ-0282,orders,ORD-0000202,202,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-002
+DQ-0283,orders,ORD-0000203,203,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-003
+DQ-0284,orders,ORD-0000204,204,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-004
+DQ-0285,orders,ORD-0000205,205,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-005
+DQ-0286,orders,ORD-0000206,206,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-006
+DQ-0287,orders,ORD-0000207,207,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-007
+DQ-0288,orders,ORD-0000208,208,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-008
+DQ-0289,orders,ORD-0000209,209,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-009
+DQ-0290,orders,ORD-0000210,210,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-010
+DQ-0291,orders,ORD-0000211,211,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-011
+DQ-0292,orders,ORD-0000212,212,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-012
+DQ-0293,orders,ORD-0000213,213,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-013
+DQ-0294,orders,ORD-0000214,214,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-014
+DQ-0295,orders,ORD-0000215,215,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-015
+DQ-0296,orders,ORD-0000216,216,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-016
+DQ-0297,orders,ORD-0000217,217,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-017
+DQ-0298,orders,ORD-0000218,218,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-018
+DQ-0299,orders,ORD-0000219,219,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-019
+DQ-0300,orders,ORD-0000220,220,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-020
+DQ-0301,orders,ORD-0000221,221,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-021
+DQ-0302,orders,ORD-0000222,222,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-022
+DQ-0303,orders,ORD-0000223,223,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-023
+DQ-0304,orders,ORD-0000224,224,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-024
+DQ-0305,orders,ORD-0000225,225,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-025
+DQ-0306,orders,ORD-0000226,226,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-026
+DQ-0307,orders,ORD-0000227,227,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-027
+DQ-0308,orders,ORD-0000228,228,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-028
+DQ-0309,orders,ORD-0000229,229,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-029
+DQ-0310,orders,ORD-0000230,230,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-030
+DQ-0311,orders,ORD-0000231,231,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-031
+DQ-0312,orders,ORD-0000232,232,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-032
+DQ-0313,orders,ORD-0000233,233,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-033
+DQ-0314,orders,ORD-0000234,234,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-034
+DQ-0315,orders,ORD-0000235,235,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-035
+DQ-0316,orders,ORD-0000236,236,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-036
+DQ-0317,orders,ORD-0000237,237,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-037
+DQ-0318,orders,ORD-0000238,238,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-038
+DQ-0319,orders,ORD-0000239,239,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-039
+DQ-0320,orders,ORD-0000240,240,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-040
+DQ-0321,orders,ORD-0000241,241,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-041
+DQ-0322,orders,ORD-0000242,242,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-042
+DQ-0323,orders,ORD-0000243,243,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-043
+DQ-0324,orders,ORD-0000244,244,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-044
+DQ-0325,orders,ORD-0000245,245,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-045
+DQ-0326,orders,ORD-0000246,246,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-046
+DQ-0327,orders,ORD-0000247,247,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-047
+DQ-0328,orders,ORD-0000248,248,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-048
+DQ-0329,orders,ORD-0000249,249,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-049
+DQ-0330,orders,ORD-0000250,250,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-050
+DQ-0331,orders,ORD-0000251,251,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-051
+DQ-0332,orders,ORD-0000252,252,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-052
+DQ-0333,orders,ORD-0000253,253,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-053
+DQ-0334,orders,ORD-0000254,254,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-054
+DQ-0335,orders,ORD-0000255,255,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-055
+DQ-0336,orders,ORD-0000256,256,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-056
+DQ-0337,orders,ORD-0000257,257,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-057
+DQ-0338,orders,ORD-0000258,258,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-058
+DQ-0339,orders,ORD-0000259,259,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-059
+DQ-0340,orders,ORD-0000260,260,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-060
+DQ-0341,orders,ORD-0000261,261,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-061
+DQ-0342,orders,ORD-0000262,262,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-062
+DQ-0343,orders,ORD-0000263,263,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-063
+DQ-0344,orders,ORD-0000264,264,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-064
+DQ-0345,orders,ORD-0000265,265,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-065
+DQ-0346,orders,ORD-0000266,266,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-066
+DQ-0347,orders,ORD-0000267,267,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-067
+DQ-0348,orders,ORD-0000268,268,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-068
+DQ-0349,orders,ORD-0000269,269,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-069
+DQ-0350,orders,ORD-0000270,270,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-070
+DQ-0351,orders,ORD-0000271,271,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-071
+DQ-0352,orders,ORD-0000272,272,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-072
+DQ-0353,orders,ORD-0000273,273,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-073
+DQ-0354,orders,ORD-0000274,274,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-074
+DQ-0355,orders,ORD-0000275,275,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-075
+DQ-0356,orders,ORD-0000276,276,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-076
+DQ-0357,orders,ORD-0000277,277,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-077
+DQ-0358,orders,ORD-0000278,278,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-078
+DQ-0359,orders,ORD-0000279,279,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-079
+DQ-0360,orders,ORD-0000280,280,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-080
+DQ-0361,orders,ORD-0000281,281,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-081
+DQ-0362,orders,ORD-0000282,282,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-082
+DQ-0363,orders,ORD-0000283,283,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-083
+DQ-0364,orders,ORD-0000284,284,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-084
+DQ-0365,orders,ORD-0000285,285,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-085
+DQ-0366,orders,ORD-0000286,286,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-086
+DQ-0367,orders,ORD-0000287,287,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-087
+DQ-0368,orders,ORD-0000288,288,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-088
+DQ-0369,orders,ORD-0000289,289,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-089
+DQ-0370,orders,ORD-0000290,290,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-090
+DQ-0371,orders,ORD-0000291,291,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-091
+DQ-0372,orders,ORD-0000292,292,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-092
+DQ-0373,orders,ORD-0000293,293,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-093
+DQ-0374,orders,ORD-0000294,294,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-094
+DQ-0375,orders,ORD-0000295,295,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-095
+DQ-0376,orders,ORD-0000296,296,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-096
+DQ-0377,orders,ORD-0000297,297,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-097
+DQ-0378,orders,ORD-0000298,298,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-098
+DQ-0379,orders,ORD-0000299,299,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-099
+DQ-0380,orders,ORD-0000300,300,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-100
+DQ-0381,orders,ORD-0000301,301,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-101
+DQ-0382,orders,ORD-0000302,302,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-102
+DQ-0383,orders,ORD-0000303,303,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-103
+DQ-0384,orders,ORD-0000304,304,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-104
+DQ-0385,orders,ORD-0000305,305,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-105
+DQ-0386,orders,ORD-0000306,306,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-106
+DQ-0387,orders,ORD-0000307,307,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-107
+DQ-0388,orders,ORD-0000308,308,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-108
+DQ-0389,orders,ORD-0000309,309,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-109
+DQ-0390,orders,ORD-0000310,310,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-110
+DQ-0391,orders,ORD-0000311,311,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-111
+DQ-0392,orders,ORD-0000312,312,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-112
+DQ-0393,orders,ORD-0000313,313,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-113
+DQ-0394,orders,ORD-0000314,314,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-114
+DQ-0395,orders,ORD-0000315,315,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-115
+DQ-0396,orders,ORD-0000316,316,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-116
+DQ-0397,orders,ORD-0000317,317,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-117
+DQ-0398,orders,ORD-0000318,318,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-118
+DQ-0399,orders,ORD-0000319,319,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-119
+DQ-0400,orders,ORD-0000320,320,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-120
+DQ-0401,orders,ORD-0000321,321,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-121
+DQ-0402,orders,ORD-0000322,322,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-122
+DQ-0403,orders,ORD-0000323,323,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-123
+DQ-0404,orders,ORD-0000324,324,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-124
+DQ-0405,orders,ORD-0000325,325,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-125
+DQ-0406,orders,ORD-0000326,326,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-126
+DQ-0407,orders,ORD-0000327,327,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-127
+DQ-0408,orders,ORD-0000328,328,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-128
+DQ-0409,orders,ORD-0000329,329,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-129
+DQ-0410,orders,ORD-0000330,330,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-130
+DQ-0411,orders,ORD-0000331,331,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-131
+DQ-0412,orders,ORD-0000332,332,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-132
+DQ-0413,orders,ORD-0000333,333,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-133
+DQ-0414,orders,ORD-0000334,334,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-134
+DQ-0415,orders,ORD-0000335,335,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-135
+DQ-0416,orders,ORD-0000336,336,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-136
+DQ-0417,orders,ORD-0000337,337,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-137
+DQ-0418,orders,ORD-0000338,338,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-138
+DQ-0419,orders,ORD-0000339,339,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-139
+DQ-0420,orders,ORD-0000340,340,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-140
+DQ-0421,orders,ORD-0000341,341,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-141
+DQ-0422,orders,ORD-0000342,342,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-142
+DQ-0423,orders,ORD-0000343,343,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-143
+DQ-0424,orders,ORD-0000344,344,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-144
+DQ-0425,orders,ORD-0000345,345,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-145
+DQ-0426,orders,ORD-0000346,346,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-146
+DQ-0427,orders,ORD-0000347,347,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-147
+DQ-0428,orders,ORD-0000348,348,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-148
+DQ-0429,orders,ORD-0000349,349,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-149
+DQ-0430,orders,ORD-0000350,350,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-150
+DQ-0431,orders,ORD-0000351,351,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-151
+DQ-0432,orders,ORD-0000352,352,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-152
+DQ-0433,orders,ORD-0000353,353,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-153
+DQ-0434,orders,ORD-0000354,354,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-154
+DQ-0435,orders,ORD-0000355,355,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-155
+DQ-0436,orders,ORD-0000356,356,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-156
+DQ-0437,orders,ORD-0000357,357,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-157
+DQ-0438,orders,ORD-0000358,358,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-158
+DQ-0439,orders,ORD-0000359,359,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-159
+DQ-0440,orders,ORD-0000360,360,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-160
+DQ-0441,orders,ORD-0000361,361,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-161
+DQ-0442,orders,ORD-0000362,362,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-162
+DQ-0443,orders,ORD-0000363,363,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-163
+DQ-0444,orders,ORD-0000364,364,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-164
+DQ-0445,orders,ORD-0000365,365,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-165
+DQ-0446,orders,ORD-0000366,366,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-166
+DQ-0447,orders,ORD-0000367,367,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-167
+DQ-0448,orders,ORD-0000368,368,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-168
+DQ-0449,orders,ORD-0000369,369,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-169
+DQ-0450,orders,ORD-0000370,370,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-170
+DQ-0451,orders,ORD-0000371,371,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-171
+DQ-0452,orders,ORD-0000372,372,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-172
+DQ-0453,orders,ORD-0000373,373,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-173
+DQ-0454,orders,ORD-0000374,374,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-174
+DQ-0455,orders,ORD-0000375,375,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-175
+DQ-0456,orders,ORD-0000376,376,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-176
+DQ-0457,orders,ORD-0000377,377,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-177
+DQ-0458,orders,ORD-0000378,378,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-178
+DQ-0459,orders,ORD-0000379,379,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-179
+DQ-0460,orders,ORD-0000380,380,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-180
+DQ-0461,orders,ORD-0000381,381,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-181
+DQ-0462,orders,ORD-0000382,382,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-182
+DQ-0463,orders,ORD-0000383,383,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-183
+DQ-0464,orders,ORD-0000384,384,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-184
+DQ-0465,orders,ORD-0000385,385,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-185
+DQ-0466,orders,ORD-0000386,386,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-186
+DQ-0467,orders,ORD-0000387,387,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-187
+DQ-0468,orders,ORD-0000388,388,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-188
+DQ-0469,orders,ORD-0000389,389,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-189
+DQ-0470,orders,ORD-0000390,390,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-190
+DQ-0471,orders,ORD-0000391,391,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-191
+DQ-0472,orders,ORD-0000392,392,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-192
+DQ-0473,orders,ORD-0000393,393,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-193
+DQ-0474,orders,ORD-0000394,394,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-194
+DQ-0475,orders,ORD-0000395,395,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-195
+DQ-0476,orders,ORD-0000396,396,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-196
+DQ-0477,orders,ORD-0000397,397,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-197
+DQ-0478,orders,ORD-0000398,398,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-198
+DQ-0479,orders,ORD-0000399,399,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-199
+DQ-0480,orders,ORD-0000400,400,ORD_CUST_ID_INVALID,referential_integrity,customer_id,Injected orphan customer_id CUST-INVALID-200
+DQ-0481,orders,ORD-0000401,401,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-001
+DQ-0482,orders,ORD-0000402,402,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-002
+DQ-0483,orders,ORD-0000403,403,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-003
+DQ-0484,orders,ORD-0000404,404,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-004
+DQ-0485,orders,ORD-0000405,405,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-005
+DQ-0486,orders,ORD-0000406,406,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-006
+DQ-0487,orders,ORD-0000407,407,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-007
+DQ-0488,orders,ORD-0000408,408,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-008
+DQ-0489,orders,ORD-0000409,409,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-009
+DQ-0490,orders,ORD-0000410,410,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-010
+DQ-0491,orders,ORD-0000411,411,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-011
+DQ-0492,orders,ORD-0000412,412,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-012
+DQ-0493,orders,ORD-0000413,413,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-013
+DQ-0494,orders,ORD-0000414,414,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-014
+DQ-0495,orders,ORD-0000415,415,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-015
+DQ-0496,orders,ORD-0000416,416,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-016
+DQ-0497,orders,ORD-0000417,417,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-017
+DQ-0498,orders,ORD-0000418,418,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-018
+DQ-0499,orders,ORD-0000419,419,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-019
+DQ-0500,orders,ORD-0000420,420,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-020
+DQ-0501,orders,ORD-0000421,421,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-021
+DQ-0502,orders,ORD-0000422,422,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-022
+DQ-0503,orders,ORD-0000423,423,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-023
+DQ-0504,orders,ORD-0000424,424,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-024
+DQ-0505,orders,ORD-0000425,425,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-025
+DQ-0506,orders,ORD-0000426,426,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-026
+DQ-0507,orders,ORD-0000427,427,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-027
+DQ-0508,orders,ORD-0000428,428,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-028
+DQ-0509,orders,ORD-0000429,429,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-029
+DQ-0510,orders,ORD-0000430,430,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-030
+DQ-0511,orders,ORD-0000431,431,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-031
+DQ-0512,orders,ORD-0000432,432,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-032
+DQ-0513,orders,ORD-0000433,433,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-033
+DQ-0514,orders,ORD-0000434,434,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-034
+DQ-0515,orders,ORD-0000435,435,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-035
+DQ-0516,orders,ORD-0000436,436,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-036
+DQ-0517,orders,ORD-0000437,437,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-037
+DQ-0518,orders,ORD-0000438,438,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-038
+DQ-0519,orders,ORD-0000439,439,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-039
+DQ-0520,orders,ORD-0000440,440,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-040
+DQ-0521,orders,ORD-0000441,441,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-041
+DQ-0522,orders,ORD-0000442,442,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-042
+DQ-0523,orders,ORD-0000443,443,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-043
+DQ-0524,orders,ORD-0000444,444,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-044
+DQ-0525,orders,ORD-0000445,445,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-045
+DQ-0526,orders,ORD-0000446,446,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-046
+DQ-0527,orders,ORD-0000447,447,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-047
+DQ-0528,orders,ORD-0000448,448,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-048
+DQ-0529,orders,ORD-0000449,449,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-049
+DQ-0530,orders,ORD-0000450,450,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-050
+DQ-0531,orders,ORD-0000451,451,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-051
+DQ-0532,orders,ORD-0000452,452,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-052
+DQ-0533,orders,ORD-0000453,453,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-053
+DQ-0534,orders,ORD-0000454,454,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-054
+DQ-0535,orders,ORD-0000455,455,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-055
+DQ-0536,orders,ORD-0000456,456,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-056
+DQ-0537,orders,ORD-0000457,457,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-057
+DQ-0538,orders,ORD-0000458,458,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-058
+DQ-0539,orders,ORD-0000459,459,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-059
+DQ-0540,orders,ORD-0000460,460,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-060
+DQ-0541,orders,ORD-0000461,461,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-061
+DQ-0542,orders,ORD-0000462,462,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-062
+DQ-0543,orders,ORD-0000463,463,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-063
+DQ-0544,orders,ORD-0000464,464,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-064
+DQ-0545,orders,ORD-0000465,465,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-065
+DQ-0546,orders,ORD-0000466,466,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-066
+DQ-0547,orders,ORD-0000467,467,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-067
+DQ-0548,orders,ORD-0000468,468,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-068
+DQ-0549,orders,ORD-0000469,469,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-069
+DQ-0550,orders,ORD-0000470,470,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-070
+DQ-0551,orders,ORD-0000471,471,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-071
+DQ-0552,orders,ORD-0000472,472,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-072
+DQ-0553,orders,ORD-0000473,473,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-073
+DQ-0554,orders,ORD-0000474,474,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-074
+DQ-0555,orders,ORD-0000475,475,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-075
+DQ-0556,orders,ORD-0000476,476,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-076
+DQ-0557,orders,ORD-0000477,477,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-077
+DQ-0558,orders,ORD-0000478,478,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-078
+DQ-0559,orders,ORD-0000479,479,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-079
+DQ-0560,orders,ORD-0000480,480,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-080
+DQ-0561,orders,ORD-0000481,481,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-081
+DQ-0562,orders,ORD-0000482,482,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-082
+DQ-0563,orders,ORD-0000483,483,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-083
+DQ-0564,orders,ORD-0000484,484,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-084
+DQ-0565,orders,ORD-0000485,485,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-085
+DQ-0566,orders,ORD-0000486,486,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-086
+DQ-0567,orders,ORD-0000487,487,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-087
+DQ-0568,orders,ORD-0000488,488,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-088
+DQ-0569,orders,ORD-0000489,489,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-089
+DQ-0570,orders,ORD-0000490,490,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-090
+DQ-0571,orders,ORD-0000491,491,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-091
+DQ-0572,orders,ORD-0000492,492,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-092
+DQ-0573,orders,ORD-0000493,493,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-093
+DQ-0574,orders,ORD-0000494,494,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-094
+DQ-0575,orders,ORD-0000495,495,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-095
+DQ-0576,orders,ORD-0000496,496,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-096
+DQ-0577,orders,ORD-0000497,497,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-097
+DQ-0578,orders,ORD-0000498,498,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-098
+DQ-0579,orders,ORD-0000499,499,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-099
+DQ-0580,orders,ORD-0000500,500,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-100
+DQ-0581,orders,ORD-0000501,501,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-101
+DQ-0582,orders,ORD-0000502,502,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-102
+DQ-0583,orders,ORD-0000503,503,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-103
+DQ-0584,orders,ORD-0000504,504,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-104
+DQ-0585,orders,ORD-0000505,505,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-105
+DQ-0586,orders,ORD-0000506,506,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-106
+DQ-0587,orders,ORD-0000507,507,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-107
+DQ-0588,orders,ORD-0000508,508,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-108
+DQ-0589,orders,ORD-0000509,509,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-109
+DQ-0590,orders,ORD-0000510,510,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-110
+DQ-0591,orders,ORD-0000511,511,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-111
+DQ-0592,orders,ORD-0000512,512,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-112
+DQ-0593,orders,ORD-0000513,513,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-113
+DQ-0594,orders,ORD-0000514,514,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-114
+DQ-0595,orders,ORD-0000515,515,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-115
+DQ-0596,orders,ORD-0000516,516,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-116
+DQ-0597,orders,ORD-0000517,517,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-117
+DQ-0598,orders,ORD-0000518,518,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-118
+DQ-0599,orders,ORD-0000519,519,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-119
+DQ-0600,orders,ORD-0000520,520,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-120
+DQ-0601,orders,ORD-0000521,521,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-121
+DQ-0602,orders,ORD-0000522,522,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-122
+DQ-0603,orders,ORD-0000523,523,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-123
+DQ-0604,orders,ORD-0000524,524,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-124
+DQ-0605,orders,ORD-0000525,525,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-125
+DQ-0606,orders,ORD-0000526,526,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-126
+DQ-0607,orders,ORD-0000527,527,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-127
+DQ-0608,orders,ORD-0000528,528,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-128
+DQ-0609,orders,ORD-0000529,529,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-129
+DQ-0610,orders,ORD-0000530,530,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-130
+DQ-0611,orders,ORD-0000531,531,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-131
+DQ-0612,orders,ORD-0000532,532,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-132
+DQ-0613,orders,ORD-0000533,533,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-133
+DQ-0614,orders,ORD-0000534,534,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-134
+DQ-0615,orders,ORD-0000535,535,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-135
+DQ-0616,orders,ORD-0000536,536,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-136
+DQ-0617,orders,ORD-0000537,537,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-137
+DQ-0618,orders,ORD-0000538,538,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-138
+DQ-0619,orders,ORD-0000539,539,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-139
+DQ-0620,orders,ORD-0000540,540,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-140
+DQ-0621,orders,ORD-0000541,541,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-141
+DQ-0622,orders,ORD-0000542,542,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-142
+DQ-0623,orders,ORD-0000543,543,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-143
+DQ-0624,orders,ORD-0000544,544,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-144
+DQ-0625,orders,ORD-0000545,545,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-145
+DQ-0626,orders,ORD-0000546,546,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-146
+DQ-0627,orders,ORD-0000547,547,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-147
+DQ-0628,orders,ORD-0000548,548,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-148
+DQ-0629,orders,ORD-0000549,549,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-149
+DQ-0630,orders,ORD-0000550,550,ORD_PROD_ID_INVALID,referential_integrity,product_id,Injected orphan product_id PROD-INVALID-150
+DQ-0631,orders,ORD-0099001,99001,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0632,orders,ORD-0099002,99002,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0633,orders,ORD-0099003,99003,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0634,orders,ORD-0099004,99004,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0635,orders,ORD-0099005,99005,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0636,orders,ORD-0099006,99006,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0637,orders,ORD-0099007,99007,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0638,orders,ORD-0099008,99008,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0639,orders,ORD-0099009,99009,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0640,orders,ORD-0099010,99010,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0641,orders,ORD-0099011,99011,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0642,orders,ORD-0099012,99012,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0643,orders,ORD-0099013,99013,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0644,orders,ORD-0099014,99014,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0645,orders,ORD-0099015,99015,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0646,orders,ORD-0099016,99016,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0647,orders,ORD-0099017,99017,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0648,orders,ORD-0099018,99018,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0649,orders,ORD-0099019,99019,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0650,orders,ORD-0099020,99020,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0651,orders,ORD-0099021,99021,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0652,orders,ORD-0099022,99022,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0653,orders,ORD-0099023,99023,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0654,orders,ORD-0099024,99024,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0655,orders,ORD-0099025,99025,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0656,orders,ORD-0099026,99026,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0657,orders,ORD-0099027,99027,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0658,orders,ORD-0099028,99028,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0659,orders,ORD-0099029,99029,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0660,orders,ORD-0099030,99030,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0661,orders,ORD-0099031,99031,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0662,orders,ORD-0099032,99032,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0663,orders,ORD-0099033,99033,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0664,orders,ORD-0099034,99034,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0665,orders,ORD-0099035,99035,ORD_ID_DUPLICATE,uniqueness,order_id,Original row in duplicate order_id pair
+DQ-0666,orders,ORD-0099001,100001,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0667,orders,ORD-0099002,100002,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0668,orders,ORD-0099003,100003,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0669,orders,ORD-0099004,100004,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0670,orders,ORD-0099005,100005,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0671,orders,ORD-0099006,100006,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0672,orders,ORD-0099007,100007,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0673,orders,ORD-0099008,100008,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0674,orders,ORD-0099009,100009,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0675,orders,ORD-0099010,100010,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0676,orders,ORD-0099011,100011,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0677,orders,ORD-0099012,100012,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0678,orders,ORD-0099013,100013,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0679,orders,ORD-0099014,100014,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0680,orders,ORD-0099015,100015,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0681,orders,ORD-0099016,100016,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0682,orders,ORD-0099017,100017,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0683,orders,ORD-0099018,100018,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0684,orders,ORD-0099019,100019,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0685,orders,ORD-0099020,100020,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0686,orders,ORD-0099021,100021,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0687,orders,ORD-0099022,100022,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0688,orders,ORD-0099023,100023,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0689,orders,ORD-0099024,100024,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0690,orders,ORD-0099025,100025,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0691,orders,ORD-0099026,100026,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0692,orders,ORD-0099027,100027,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0693,orders,ORD-0099028,100028,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0694,orders,ORD-0099029,100029,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0695,orders,ORD-0099030,100030,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0696,orders,ORD-0099031,100031,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0697,orders,ORD-0099032,100032,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0698,orders,ORD-0099033,100033,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0699,orders,ORD-0099034,100034,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
+DQ-0700,orders,ORD-0099035,100035,ORD_ID_DUPLICATE,uniqueness,order_id,Appended duplicate order_id row
