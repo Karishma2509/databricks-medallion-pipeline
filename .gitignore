@@ -1,6 +1,12 @@
 # Generated raw CSV files (Phase 5+)
 data/raw/*.csv
 
+# Generated Delta tables (Phase 6+)
+data/delta/
+
+# Local Spark/Hadoop tooling (Windows winutils, not committed)
+.tools/
+
 # Python artifacts
 __pycache__/
 *.py[cod]
