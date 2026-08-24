@@ -1,17 +1,8 @@
-Yes. Since your current `README.md` is completely blank, this is actually easier—we can create the README from scratch and document the **current validated state** of the project.
-
-I recommend **not putting every implementation detail into README**. Keep it as the project entry point, while your existing files such as `05-silver.md`, `06-gold.md`, `07-dashboard.md`, etc. remain the detailed phase documentation.
-
-Replace the blank `README.md` with this:
-
-````markdown
 # Databricks Medallion Pipeline
 
 End-to-end Databricks Medallion Architecture project implementing Bronze, Silver, Gold, Data Quality, Dashboard, and testing capabilities.
 
 The project is designed to support both local execution and Databricks execution.
-
----
 
 ## 1. Project Overview
 
@@ -595,31 +586,3 @@ Gold
 Databricks execution has been validated using Unity Catalog under the `workspace` catalog.
 
 The next development stages can build on the validated Gold layer for dashboard, analytics, testing, and final project documentation.
-
-````
-
-### One important correction
-
-I would **not** copy the older statement from the Cursor panel saying Silver writes to filesystem paths such as:
-
-```text
-/Workspace/.../data/delta/...
-````
-
-for Databricks mode.
-
-We fixed that behavior. Your validated Silver and Gold pipelines are now using Unity Catalog tables:
-
-```text
-workspace.silver.silver_products
-workspace.silver.silver_customers
-workspace.silver.silver_orders
-```
-
-and:
-
-```text
-workspace.gold.gold_sales_by_product
-workspace.gold.gold_revenue_by_customer
-workspace.gold.gold_customer_segmentation
-```
