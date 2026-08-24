@@ -9,7 +9,7 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from common.config import load_bronze_settings, load_gold_settings, load_silver_settings  # noqa: E402
+from common.config import EXECUTION_MODE_LOCAL, load_bronze_settings, load_gold_settings, load_silver_settings  # noqa: E402
 from common.spark_session import create_spark_session  # noqa: E402
 
 
@@ -55,6 +55,7 @@ def silver_settings(_bronze_session_data):
     """Silver settings sharing the same Delta base directory as Bronze."""
     bronze_settings, _ = _bronze_session_data
     return load_silver_settings(
+        execution_mode=EXECUTION_MODE_LOCAL,
         delta_base_dir=bronze_settings.delta_base_dir,
         catalog=bronze_settings.catalog,
         bronze_schema=bronze_settings.schema,

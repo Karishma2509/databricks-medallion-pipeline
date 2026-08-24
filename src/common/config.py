@@ -98,6 +98,7 @@ def load_bronze_settings(
 
 @dataclass(frozen=True)
 class SilverSettings:
+    execution_mode: str
     catalog: str
     bronze_schema: str
     silver_schema: str
@@ -105,6 +106,14 @@ class SilverSettings:
     delta_base_dir: Path
     metric_run_id: str
     metric_timestamp: datetime
+
+    @property
+    def is_local(self) -> bool:
+        return self.execution_mode == EXECUTION_MODE_LOCAL
+
+    @property
+    def is_databricks(self) -> bool:
+        return self.execution_mode == EXECUTION_MODE_DATABRICKS
 
     def bronze_table_path(self, table_name: str) -> Path:
         return self.delta_base_dir / self.catalog / self.bronze_schema / table_name
@@ -124,8 +133,21 @@ class SilverSettings:
     def qualified_dq_table_name(self, table_name: str) -> str:
         return f"{self.catalog}.{self.dq_schema}.{table_name}"
 
+    def silver_storage_label(self, table_name: str) -> str:
+        """Human-readable Silver storage target for logging."""
+        if self.is_databricks:
+            return self.qualified_silver_table_name(table_name)
+        return str(self.silver_table_path(table_name))
+
+    def dq_storage_label(self, table_name: str) -> str:
+        """Human-readable DQ storage target for logging."""
+        if self.is_databricks:
+            return self.qualified_dq_table_name(table_name)
+        return str(self.dq_table_path(table_name))
+
 
 def load_silver_settings(
+    execution_mode: str | None = None,
     delta_base_dir: Path | None = None,
     catalog: str | None = None,
     bronze_schema: str | None = None,
@@ -135,8 +157,20 @@ def load_silver_settings(
     metric_timestamp: datetime | None = None,
 ) -> SilverSettings:
     """Load Silver settings from arguments with design-document defaults."""
+    resolved_mode = execution_mode or os.getenv("MEDALLION_EXECUTION_MODE", EXECUTION_MODE_LOCAL)
+    if resolved_mode not in (EXECUTION_MODE_LOCAL, EXECUTION_MODE_DATABRICKS):
+        raise ValueError(
+            f"Unsupported MEDALLION_EXECUTION_MODE: {resolved_mode!r}. "
+            f"Expected {EXECUTION_MODE_LOCAL!r} or {EXECUTION_MODE_DATABRICKS!r}."
+        )
+
+    default_catalog = (
+        "workspace" if resolved_mode == EXECUTION_MODE_DATABRICKS else "medallion_eval"
+    )
+
     return SilverSettings(
-        catalog=catalog or os.getenv("DATABRICKS_CATALOG", "medallion_eval"),
+        execution_mode=resolved_mode,
+        catalog=catalog or os.getenv("DATABRICKS_CATALOG", default_catalog),
         bronze_schema=bronze_schema or os.getenv("BRONZE_SCHEMA", "bronze"),
         silver_schema=silver_schema or os.getenv("SILVER_SCHEMA", "silver"),
         dq_schema=dq_schema or os.getenv("DQ_SCHEMA", "dq"),

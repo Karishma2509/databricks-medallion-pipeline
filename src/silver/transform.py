@@ -28,24 +28,34 @@ class SilverTransformResult:
     table_name: str
     bronze_table_name: str
     delta_path: Path
+    storage_label: str
     bronze_row_count: int
     silver_row_count: int
 
 
 def read_bronze_table(spark: SparkSession, settings: SilverSettings, table_name: str) -> DataFrame:
-    """Read a Bronze Delta table from the configured path."""
+    """Read a Bronze Delta table from the configured storage target."""
+    if settings.is_databricks:
+        return spark.table(settings.qualified_bronze_table_name(table_name))
+
     delta_path = settings.bronze_table_path(table_name)
     return spark.read.format("delta").load(str(delta_path))
 
 
 def read_silver_table(spark: SparkSession, settings: SilverSettings, table_name: str) -> DataFrame:
-    """Read a Silver Delta table from the configured path."""
+    """Read a Silver Delta table from the configured storage target."""
+    if settings.is_databricks:
+        return spark.table(settings.qualified_silver_table_name(table_name))
+
     delta_path = settings.silver_table_path(table_name)
     return spark.read.format("delta").load(str(delta_path))
 
 
 def read_dq_table(spark: SparkSession, settings: SilverSettings, table_name: str) -> DataFrame:
-    """Read a DQ metrics Delta table from the configured path."""
+    """Read a DQ metrics Delta table from the configured storage target."""
+    if settings.is_databricks:
+        return spark.table(settings.qualified_dq_table_name(table_name))
+
     delta_path = settings.dq_table_path(table_name)
     return spark.read.format("delta").load(str(delta_path))
 
@@ -57,11 +67,18 @@ def _write_silver_table(
     column_order: list[str],
     bronze_row_count: int,
 ) -> SilverTransformResult:
-    delta_path = settings.silver_table_path(table_name)
-    delta_path.parent.mkdir(parents=True, exist_ok=True)
-
     output_df = df.select(*column_order)
-    output_df.write.format("delta").mode("overwrite").save(str(delta_path))
+
+    if settings.is_local:
+        delta_path = settings.silver_table_path(table_name)
+        delta_path.parent.mkdir(parents=True, exist_ok=True)
+        output_df.write.format("delta").mode("overwrite").save(str(delta_path))
+        storage_label = str(delta_path)
+    else:
+        delta_path = settings.silver_table_path(table_name)
+        qualified_name = settings.qualified_silver_table_name(table_name)
+        output_df.write.format("delta").mode("overwrite").saveAsTable(qualified_name)
+        storage_label = qualified_name
 
     silver_row_count = output_df.count()
     if silver_row_count != bronze_row_count:
@@ -76,6 +93,7 @@ def _write_silver_table(
         table_name=table_name,
         bronze_table_name=f"bronze_{dataset_key}",
         delta_path=delta_path,
+        storage_label=storage_label,
         bronze_row_count=bronze_row_count,
         silver_row_count=silver_row_count,
     )
@@ -179,6 +197,8 @@ class SilverPipelineResult:
     entity_results: list[SilverTransformResult]
     dq_metrics_path: Path
     dq_metrics_by_rule_path: Path
+    dq_metrics_label: str
+    dq_metrics_by_rule_label: str
 
 
 def transform_all_silver_tables(
@@ -200,4 +220,6 @@ def transform_all_silver_tables(
         entity_results=[products_result, customers_result, orders_result],
         dq_metrics_path=settings.dq_table_path("dq_metrics"),
         dq_metrics_by_rule_path=settings.dq_table_path("dq_metrics_by_rule"),
+        dq_metrics_label=settings.dq_storage_label("dq_metrics"),
+        dq_metrics_by_rule_label=settings.dq_storage_label("dq_metrics_by_rule"),
     )

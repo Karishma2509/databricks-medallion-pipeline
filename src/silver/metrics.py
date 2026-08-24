@@ -113,11 +113,20 @@ def write_dq_metrics(
         spark, settings, silver_customers, silver_orders
     )
 
-    metrics_path = settings.dq_table_path("dq_metrics")
-    metrics_by_rule_path = settings.dq_table_path("dq_metrics_by_rule")
-
-    metrics_path.parent.mkdir(parents=True, exist_ok=True)
-    dq_metrics.write.format("delta").mode("overwrite").save(str(metrics_path))
-    dq_metrics_by_rule.write.format("delta").mode("overwrite").save(str(metrics_by_rule_path))
+    if settings.is_local:
+        metrics_path = settings.dq_table_path("dq_metrics")
+        metrics_by_rule_path = settings.dq_table_path("dq_metrics_by_rule")
+        metrics_path.parent.mkdir(parents=True, exist_ok=True)
+        dq_metrics.write.format("delta").mode("overwrite").save(str(metrics_path))
+        dq_metrics_by_rule.write.format("delta").mode("overwrite").save(
+            str(metrics_by_rule_path)
+        )
+    else:
+        dq_metrics.write.format("delta").mode("overwrite").saveAsTable(
+            settings.qualified_dq_table_name("dq_metrics")
+        )
+        dq_metrics_by_rule.write.format("delta").mode("overwrite").saveAsTable(
+            settings.qualified_dq_table_name("dq_metrics_by_rule")
+        )
 
     return dq_metrics, dq_metrics_by_rule
