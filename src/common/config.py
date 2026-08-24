@@ -52,3 +52,54 @@ def load_bronze_settings(
         ingest_batch_id=ingest_batch_id or os.getenv("INGEST_BATCH_ID", str(uuid.uuid4())),
         ingest_timestamp=ingest_timestamp or datetime.now(timezone.utc),
     )
+
+
+@dataclass(frozen=True)
+class SilverSettings:
+    catalog: str
+    bronze_schema: str
+    silver_schema: str
+    dq_schema: str
+    delta_base_dir: Path
+    metric_run_id: str
+    metric_timestamp: datetime
+
+    def bronze_table_path(self, table_name: str) -> Path:
+        return self.delta_base_dir / self.catalog / self.bronze_schema / table_name
+
+    def silver_table_path(self, table_name: str) -> Path:
+        return self.delta_base_dir / self.catalog / self.silver_schema / table_name
+
+    def dq_table_path(self, table_name: str) -> Path:
+        return self.delta_base_dir / self.catalog / self.dq_schema / table_name
+
+    def qualified_bronze_table_name(self, table_name: str) -> str:
+        return f"{self.catalog}.{self.bronze_schema}.{table_name}"
+
+    def qualified_silver_table_name(self, table_name: str) -> str:
+        return f"{self.catalog}.{self.silver_schema}.{table_name}"
+
+    def qualified_dq_table_name(self, table_name: str) -> str:
+        return f"{self.catalog}.{self.dq_schema}.{table_name}"
+
+
+def load_silver_settings(
+    delta_base_dir: Path | None = None,
+    catalog: str | None = None,
+    bronze_schema: str | None = None,
+    silver_schema: str | None = None,
+    dq_schema: str | None = None,
+    metric_run_id: str | None = None,
+    metric_timestamp: datetime | None = None,
+) -> SilverSettings:
+    """Load Silver settings from arguments with design-document defaults."""
+    return SilverSettings(
+        catalog=catalog or os.getenv("DATABRICKS_CATALOG", "medallion_eval"),
+        bronze_schema=bronze_schema or os.getenv("BRONZE_SCHEMA", "bronze"),
+        silver_schema=silver_schema or os.getenv("SILVER_SCHEMA", "silver"),
+        dq_schema=dq_schema or os.getenv("DQ_SCHEMA", "dq"),
+        delta_base_dir=delta_base_dir
+        or Path(os.getenv("MEDALLION_DELTA_PATH", DEFAULT_DELTA_BASE_DIR)),
+        metric_run_id=metric_run_id or os.getenv("METRIC_RUN_ID", str(uuid.uuid4())),
+        metric_timestamp=metric_timestamp or datetime.now(timezone.utc),
+    )

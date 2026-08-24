@@ -9,7 +9,7 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from common.config import load_bronze_settings  # noqa: E402
+from common.config import load_bronze_settings, load_silver_settings  # noqa: E402
 from common.spark_session import create_spark_session  # noqa: E402
 
 
@@ -45,3 +45,26 @@ def bronze_settings(_bronze_session_data):
 @pytest.fixture(scope="session")
 def bronze_results(_bronze_session_data):
     return _bronze_session_data[1]
+
+
+@pytest.fixture(scope="session")
+def silver_settings(_bronze_session_data):
+    """Silver settings sharing the same Delta base directory as Bronze."""
+    bronze_settings, _ = _bronze_session_data
+    return load_silver_settings(
+        delta_base_dir=bronze_settings.delta_base_dir,
+        catalog=bronze_settings.catalog,
+        bronze_schema=bronze_settings.schema,
+        silver_schema="silver",
+        dq_schema="dq",
+        metric_run_id="test-metric-run-001",
+        metric_timestamp=datetime(2025, 1, 1, 13, 0, 0, tzinfo=timezone.utc),
+    )
+
+
+@pytest.fixture(scope="session")
+def silver_results(spark, silver_settings):
+    """Run Silver transformation once per test session."""
+    from silver.transform import transform_all_silver_tables
+
+    return transform_all_silver_tables(spark, silver_settings)
