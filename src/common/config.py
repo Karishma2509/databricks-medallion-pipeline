@@ -13,15 +13,29 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
 DEFAULT_DELTA_BASE_DIR = PROJECT_ROOT / "data" / "delta"
 
+EXECUTION_MODE_LOCAL = "local"
+EXECUTION_MODE_DATABRICKS = "databricks"
+DEFAULT_DATABRICKS_RAW_VOLUME = "/Volumes/workspace/bronze/raw_data"
+
 
 @dataclass(frozen=True)
 class BronzeSettings:
+    execution_mode: str
     catalog: str
     schema: str
     raw_data_dir: Path
+    raw_data_volume_path: str
     delta_base_dir: Path
     ingest_batch_id: str
     ingest_timestamp: datetime
+
+    @property
+    def is_local(self) -> bool:
+        return self.execution_mode == EXECUTION_MODE_LOCAL
+
+    @property
+    def is_databricks(self) -> bool:
+        return self.execution_mode == EXECUTION_MODE_DATABRICKS
 
     @property
     def bronze_schema_path(self) -> Path:
@@ -33,9 +47,23 @@ class BronzeSettings:
     def qualified_table_name(self, table_name: str) -> str:
         return f"{self.catalog}.{self.schema}.{table_name}"
 
+    def source_csv_uri(self, source_file: str) -> str:
+        """Return the CSV location for the active execution mode."""
+        if self.is_databricks:
+            return f"{self.raw_data_volume_path.rstrip('/')}/{source_file}"
+        return str(self.raw_data_dir / source_file)
+
+    def bronze_storage_label(self, table_name: str) -> str:
+        """Human-readable Bronze storage target for logging."""
+        if self.is_databricks:
+            return self.qualified_table_name(table_name)
+        return str(self.table_path(table_name))
+
 
 def load_bronze_settings(
+    execution_mode: str | None = None,
     raw_data_dir: Path | None = None,
+    raw_data_volume_path: str | None = None,
     delta_base_dir: Path | None = None,
     catalog: str | None = None,
     schema: str | None = None,
@@ -43,10 +71,24 @@ def load_bronze_settings(
     ingest_timestamp: datetime | None = None,
 ) -> BronzeSettings:
     """Load Bronze settings from arguments with design-document defaults."""
+    resolved_mode = execution_mode or os.getenv("MEDALLION_EXECUTION_MODE", EXECUTION_MODE_LOCAL)
+    if resolved_mode not in (EXECUTION_MODE_LOCAL, EXECUTION_MODE_DATABRICKS):
+        raise ValueError(
+            f"Unsupported MEDALLION_EXECUTION_MODE: {resolved_mode!r}. "
+            f"Expected {EXECUTION_MODE_LOCAL!r} or {EXECUTION_MODE_DATABRICKS!r}."
+        )
+
+    default_catalog = (
+        "workspace" if resolved_mode == EXECUTION_MODE_DATABRICKS else "medallion_eval"
+    )
+
     return BronzeSettings(
-        catalog=catalog or os.getenv("DATABRICKS_CATALOG", "medallion_eval"),
+        execution_mode=resolved_mode,
+        catalog=catalog or os.getenv("DATABRICKS_CATALOG", default_catalog),
         schema=schema or os.getenv("BRONZE_SCHEMA", "bronze"),
         raw_data_dir=raw_data_dir or Path(os.getenv("MEDALLION_RAW_PATH", DEFAULT_RAW_DATA_DIR)),
+        raw_data_volume_path=raw_data_volume_path
+        or os.getenv("MEDALLION_RAW_VOLUME_PATH", DEFAULT_DATABRICKS_RAW_VOLUME),
         delta_base_dir=delta_base_dir
         or Path(os.getenv("MEDALLION_DELTA_PATH", DEFAULT_DELTA_BASE_DIR)),
         ingest_batch_id=ingest_batch_id or os.getenv("INGEST_BATCH_ID", str(uuid.uuid4())),

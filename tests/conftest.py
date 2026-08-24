@@ -25,7 +25,10 @@ def _bronze_session_data(spark, tmp_path_factory):
     """Create one shared Bronze settings object and ingest once per test session."""
     from bronze.ingest import ingest_all_bronze_tables
 
+    from common.config import EXECUTION_MODE_LOCAL, load_bronze_settings
+
     settings = load_bronze_settings(
+        execution_mode=EXECUTION_MODE_LOCAL,
         raw_data_dir=PROJECT_ROOT / "data" / "raw",
         delta_base_dir=tmp_path_factory.mktemp("bronze") / "delta",
         catalog="medallion_eval",
