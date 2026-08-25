@@ -6,12 +6,15 @@
 
 ```
 Silver is complete (silver_customers 10,015 / silver_orders 100,035 /
-silver_products 500, plus dq_metrics tables). Phase 8 is Gold — business
-aggregates only. Don't re-run Silver DQ rules in Gold.
+silver_products 500, plus dq_metrics tables). Phase 8 is Gold — move from
+validated Silver into business-facing aggregates. Don't re-run Silver DQ rules
+in Gold.
 
 Read data-model.md, data-quality-strategy.md, design-notes.md.
 Use is_valid_record as the inclusion filter — don't reference individual DQ
 flags in Gold.
+
+Keep this phase focused on the three Gold tables only.
 
 Three Gold tables under data/delta/medallion_eval/gold/ (configurable via
 GoldSettings in src/common/config.py):

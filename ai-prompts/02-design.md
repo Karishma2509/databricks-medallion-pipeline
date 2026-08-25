@@ -5,8 +5,8 @@
 ### What I asked Cursor
 
 ```
-Requirements analysis is done (requirements-analysis.md). I need the Solution
-Design phase for this Medallion pipeline — still no code.
+Requirements analysis is in requirements-analysis.md. Next step is solution
+design for this repo — still no code.
 
 Read:
 - cursor-workflow/project-context.md
@@ -16,11 +16,13 @@ Read:
 - requirements-analysis.md
 
 Check the repo layout (src/bronze, src/silver, src/gold, notebooks, etc.).
+The design should fit that structure and close the open items from requirements
+analysis.
 
-Produce a technical design covering architecture, source CSV schemas, data
-generation strategy, the ~700 intentional DQ issues, Bronze/Silver/Gold designs,
-DQ flagging and metrics, testing strategy, dashboard mapping, folder layout,
-configuration, and Git strategy.
+Cover architecture, source CSV schemas, data generation strategy, the ~700
+intentional DQ issues, Bronze/Silver/Gold designs, DQ flagging and metrics,
+testing strategy, dashboard mapping, folder layout, configuration, and Git
+strategy.
 
 Don't treat unspecified items as confirmed. Tag each decision:
   A = required by spec

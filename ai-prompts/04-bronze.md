@@ -14,6 +14,8 @@ section of cursor-workflow/task-breakdown.md.
 Implement under src/bronze/ — business logic in src/, thin notebook in
 notebooks/02_bronze_ingest.py (same pattern as other layers).
 
+Keep this phase focused — Bronze ingestion only.
+
 Bronze rules — don't bend these:
 - Ingest customers.csv, orders.csv, products.csv
 - Preserve every row: duplicates, nulls, bad FKs stay
@@ -62,14 +64,17 @@ bronze_df.write.format("delta").mode("overwrite").save(str(delta_path))
 
 ---
 
-## Prompt 2 — Databricks Free Edition / Unity Catalog
+## Prompt 2 — Databricks follow-up (Unity Catalog)
 
 ### What I asked Cursor
 
 ```
 Bronze works locally (data/raw → data/delta/medallion_eval/bronze/).
-Colleagues need Databricks Free Edition with Unity Catalog. Support both modes
-without duplicating business logic or breaking pytest.
+Colleagues need Databricks Free Edition with Unity Catalog. Build on the
+existing Bronze implementation — add a Databricks path without duplicating
+business logic or breaking pytest.
+
+Keep the local path working as-is.
 
 Local (unchanged):
 - Read CSVs from data/raw/
@@ -82,12 +87,13 @@ Databricks:
 - Read back with spark.table()
 - Catalog/schema configurable — not hard-coded in ingest.py
 
-Add execution_mode to BronzeSettings (we'll reuse this pattern for Silver).
+Use the configuration pattern in src/common/config.py instead of hard-coding
+paths. Add execution_mode to BronzeSettings (we'll reuse this for Silver).
 Update notebooks/02_bronze_ingest.py to pass EXECUTION_MODE_DATABRICKS settings.
 Row counts must stay: 10,015 / 100,035 / 500.
 
-Don't change Bronze business rules. Don't modify Silver/Gold. pytest -v must
-stay green.
+Don't change Bronze business rules. Don't modify Silver/Gold. Keep the change
+small so pytest -v stays green.
 ```
 
 ### What changed

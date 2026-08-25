@@ -5,19 +5,19 @@
 ### What I asked Cursor
 
 ```
-I'm on the Databricks Medallion Architecture GenAI evaluation project.
-The repo has scaffolding (src/bronze, src/silver, src/gold, src/data_generation,
-tests, data, notebooks) but almost no code yet.
+I'm starting the Databricks Medallion Architecture GenAI eval. The repo has
+folder scaffolding (src/bronze, src/silver, src/gold, src/data_generation,
+tests, data, notebooks) but almost no implementation yet.
 
-Before we write anything, read:
+I need to understand the assignment before writing code. Read:
 - cursor-workflow/project-context.md
 - cursor-workflow/spec.md
 - cursor-workflow/cursor-rules-or-instructions.md
 - cursor-workflow/task-breakdown.md
 
-Walk the repo too. No code yet.
+Walk the repo too. Do not write code in this step.
 
-I need a requirements analysis covering:
+Put together a requirements analysis for:
 1. Functional requirements
 2. Data requirements
 3. Bronze-layer requirements
@@ -31,11 +31,12 @@ I need a requirements analysis covering:
 11. AI-assisted development expectations
 12. Important assumptions or ambiguities
 
-For each item, split what the docs actually say vs what we still need to decide.
-Don't invent requirements. End with measurable acceptance criteria per major phase.
+For each area, separate what the project docs already specify from what we
+still need to decide ourselves. Don't invent requirements. Include measurable
+acceptance criteria per major phase — later phases will build on those.
 ```
 
-### What Cursor came back with
+### What Cursor returned
 
 Cursor walked the scaffold and produced the analysis below. At that point most implementation files were still empty.
 

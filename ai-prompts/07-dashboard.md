@@ -6,14 +6,15 @@
 
 ```
 Gold tables are populated locally (gold_sales_by_product, gold_revenue_by_customer,
-gold_customer_segmentation). Phase 9 is the Databricks SQL Dashboard — presentation
-only, no new Python pipeline code under src/.
+gold_customer_segmentation). Last step for the pipeline side is the Databricks
+SQL Dashboard — presentation only, no new Python under src/.
 
 Read design-notes.md, data-model.md, requirements-analysis.md (dashboard section).
 
 Create SQL query files and a setup guide under resources/dashboard/.
 Queries read Gold only — no Silver, Bronze, or dq_* tables.
 Don't recompute line_revenue, segmentation thresholds, or DQ filters in SQL.
+The Gold layer already did that work.
 
 Three visualizations in one dashboard:
 

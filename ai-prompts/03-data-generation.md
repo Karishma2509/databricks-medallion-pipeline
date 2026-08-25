@@ -5,8 +5,9 @@
 ### What I asked Cursor
 
 ```
-Design docs are approved (design-notes.md, data-model.md, data-quality-strategy.md).
-Starting Phase 5 — data generation only. Don't touch Bronze, Silver, Gold, or dashboard.
+Design docs are signed off (design-notes.md, data-model.md,
+data-quality-strategy.md). Phase 5 is generating the CSVs Bronze will ingest.
+Data generation only — leave Bronze, Silver, Gold, and dashboard alone.
 
 Read the workflow docs and design files first.
 
@@ -16,8 +17,9 @@ Implement under src/data_generation/:
 - Write data/manifests/dq_injection_manifest.csv with row-level traceability
 - Final CSVs in data/raw/: customers 10,015, orders 100,035, products 500
 - Tests in tests/test_data_generation.py
-- Run generator + pytest before we're done
-- Don't commit yet
+
+Row counts and issue distribution need to match the design — Silver tests will
+depend on them. Run generator + pytest before we're done. Don't commit yet.
 ```
 
 ### What we built

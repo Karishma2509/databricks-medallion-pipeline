@@ -12,6 +12,8 @@ Read data-model.md, data-quality-strategy.md, design-notes.md.
 Implement under src/silver/ with separate modules per DQ concern — don't stuff
 everything into one transform.
 
+Keep validation logic in separate files so we can review each DQ rule.
+
 Silver must:
 1. Read Bronze with no row loss
 2. Conformance (conformance.py): trim strings; cast quantity, unit_price,
@@ -92,14 +94,17 @@ Bronze metadata carried through: `_ingest_batch_id`, `_ingest_timestamp`, `_sour
 
 ---
 
-## Prompt 2 — Databricks / Unity Catalog for Silver
+## Prompt 2 — Databricks follow-up (Unity Catalog)
 
 ### What I asked Cursor
 
 ```
-Bronze runs on Databricks Free Edition (workspace.bronze.bronze_*).
-Silver still only uses local Delta paths. Extend the execution_mode pattern
-from Bronze to Silver. Don't change DQ rules or row-count expectations.
+Local Silver is in place and pytest is green. Bronze already runs on Databricks
+Free Edition (workspace.bronze.bronze_*). Adapt the same Silver transformation
+for Databricks — extend the execution_mode pattern from Bronze. Don't change DQ
+rules or row-count expectations.
+
+Keep the local path working for pytest.
 
 Local (keep for pytest):
 - Read Bronze: data/delta/medallion_eval/bronze/*
@@ -121,8 +126,9 @@ before importing it. Put src/ on path first, then import, then:
   settings = load_silver_settings(execution_mode=EXECUTION_MODE_DATABRICKS)
   result = run_silver_transformation(spark, settings=settings)
 
-Don't change Silver business logic. Don't touch Gold.
-pytest -v must stay at 57 passed, 1 skipped.
+This is a follow-up to the local Silver implementation — build on what's
+already there. Don't change Silver business logic. Don't touch Gold.
+Keep pytest -v at 57 passed, 1 skipped.
 ```
 
 ### What changed
