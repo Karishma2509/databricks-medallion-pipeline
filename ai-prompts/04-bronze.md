@@ -1,126 +1,112 @@
-# Phase 6 — Bronze Layer
+# Phase 6 — Bronze Layer — Cursor Prompt History
 
-## Objective
+## Prompt 1 — Implement Bronze ingestion
 
-Implement the Bronze layer of the medallion architecture to ingest raw
-CSV datasets into Delta format while preserving source fidelity.
+### What I asked Cursor
 
-## Datasets
+```
+Phase 5 CSVs are in data/raw/ (customers 10,015 / orders 100,035 / products 500).
+Time for Phase 6 Bronze.
 
-The Bronze layer ingests:
+Read data-model.md, data-quality-strategy.md, design-notes.md, and the Bronze
+section of cursor-workflow/task-breakdown.md.
 
-- Customers
-- Orders
-- Products
+Implement under src/bronze/ — business logic in src/, thin notebook in
+notebooks/02_bronze_ingest.py (same pattern as other layers).
 
-## Bronze Design Principles
+Bronze rules — don't bend these:
+- Ingest customers.csv, orders.csv, products.csv
+- Preserve every row: duplicates, nulls, bad FKs stay
+- No filtering, no dedup, no DQ fixes
+- Add ingestion metadata per data-model.md:
+  _ingest_batch_id, _ingest_timestamp, _source_file, _source_row_number,
+  _bronze_record_id
+- Write Delta to data/delta/medallion_eval/bronze/ (configurable via
+  src/common/config.py BronzeSettings)
+- Row counts must match source exactly
 
-The Bronze layer must:
+Add tests/test_bronze.py with session-scoped Spark fixtures (same pattern
+we'll reuse for Silver/Gold). Run pytest -v when done.
 
-- Preserve all source records.
-- Preserve duplicate records.
-- Preserve null/missing values.
-- Preserve invalid foreign-key references.
-- Perform no business-level filtering.
-- Perform no deduplication.
-- Add ingestion metadata.
-- Store data in Delta format.
+Don't touch Silver or Gold yet.
+```
 
-## Bronze Metadata
+### What we built
 
-Each Bronze record contains:
+| File | Role |
+|---|---|
+| `src/bronze/ingest.py` | CSV read, metadata, Delta write |
+| `src/bronze/schemas.py` | Table definitions, CSV schemas |
+| `src/bronze/run_bronze.py` | Entry point |
+| `src/common/config.py` | `BronzeSettings`, paths |
+| `src/common/spark_session.py` | Local Spark session |
+| `src/common/windows_hadoop.py` | Windows Hadoop shim |
+| `notebooks/02_bronze_ingest.py` | Thin orchestration |
+| `tests/test_bronze.py` | 12 Bronze tests |
 
-- source_name
-- source_file
-- ingest_batch_id
-- ingest_timestamp
-- bronze_record_id
+Tables: `bronze_customers`, `bronze_orders`, `bronze_products`.
 
-`bronze_record_id` provides a deterministic identifier for the ingested
-record.
+Local write pattern:
 
-## Implementation
+```python
+bronze_df.write.format("delta").mode("overwrite").save(str(delta_path))
+```
 
-Main implementation files:
+**Tests:** all three datasets ingested, row counts, business + metadata columns, duplicates/missing values/invalid refs preserved, no filtering/dedup, `_bronze_record_id` format, CSV fidelity.
 
-- `src/bronze/ingest.py`
-- `src/bronze/schemas.py`
-- `src/bronze/run_bronze.py`
-- `src/bronze/__init__.py`
+**Results at implementation time:** Bronze 12 passed; data gen 10 passed; full suite 22 passed in ~36s.
 
-Shared utilities:
+**Windows:** Java 17 + `src/common/windows_hadoop.py` → `.tools/hadoop/` (gitignored).
 
-- `src/common/config.py`
-- `src/common/spark_session.py`
-- `src/common/windows_hadoop.py`
+**Git:** `599e493 Implement Phase 6 Bronze ingestion`.
 
-Notebook:
+---
 
-- `notebooks/02_bronze_ingest.py`
+## Prompt 2 — Databricks Free Edition / Unity Catalog
 
-## Testing
+### What I asked Cursor
 
-Bronze tests are implemented in:
+```
+Bronze works locally (data/raw → data/delta/medallion_eval/bronze/).
+Colleagues need Databricks Free Edition with Unity Catalog. Support both modes
+without duplicating business logic or breaking pytest.
 
-`tests/test_bronze.py`
+Local (unchanged):
+- Read CSVs from data/raw/
+- Write/read Delta paths under data/delta/medallion_eval/bronze/
 
-The Bronze test suite validates:
+Databricks:
+- Read CSVs from /Volumes/workspace/bronze/raw_data/
+- Write workspace.bronze.bronze_customers, bronze_orders, bronze_products
+  via saveAsTable()
+- Read back with spark.table()
+- Catalog/schema configurable — not hard-coded in ingest.py
 
-1. All three datasets are ingested.
-2. Bronze row counts match source counts.
-3. Required business columns exist.
-4. Bronze metadata columns exist.
-5. Bronze metadata is populated.
-6. Duplicate customer IDs are preserved.
-7. Duplicate order IDs are preserved.
-8. Missing values are preserved.
-9. Invalid references are preserved.
-10. No filtering or deduplication occurs.
-11. Bronze record ID format is valid.
-12. Source CSV values are preserved.
+Add execution_mode to BronzeSettings (we'll reuse this pattern for Silver).
+Update notebooks/02_bronze_ingest.py to pass EXECUTION_MODE_DATABRICKS settings.
+Row counts must stay: 10,015 / 100,035 / 500.
 
-## Validation Result
+Don't change Bronze business rules. Don't modify Silver/Gold. pytest -v must
+stay green.
+```
 
-Full test suite:
+### What changed
 
-`22 passed in 36.34s`
+- `src/common/config.py` — `EXECUTION_MODE_LOCAL`, `EXECUTION_MODE_DATABRICKS`, `source_csv_uri()`, `bronze_storage_label()`
+- `src/bronze/ingest.py` — `_write_bronze_table()`, `_read_bronze_row_count()`, mode-aware `read_bronze_table()`
+- `src/bronze/run_bronze.py` — optional `settings` parameter
+- `notebooks/02_bronze_ingest.py` — `run_bronze_ingestion(spark, settings=settings)`
+- `tests/conftest.py` — `execution_mode=EXECUTION_MODE_LOCAL`
 
-Bronze-specific tests:
+Business logic unchanged; I/O branches on mode only.
 
-`12 passed in 25.99s`
+**Databricks env vars:**
 
-Phase 5 data-generation tests:
+```
+MEDALLION_EXECUTION_MODE=databricks
+DATABRICKS_CATALOG=workspace
+BRONZE_SCHEMA=bronze
+MEDALLION_RAW_VOLUME_PATH=/Volumes/workspace/bronze/raw_data
+```
 
-`10 passed`
-
-Therefore, Phase 5 and Phase 6 are fully validated.
-
-## Windows Local Spark Support
-
-Local Spark execution on Windows requires Java and Hadoop native
-support.
-
-The project provides:
-
-`src/common/windows_hadoop.py`
-
-This provisions the required Hadoop binaries under:
-
-`.tools/hadoop/`
-
-The directory is gitignored and must not be committed.
-
-Required binaries include:
-
-- `winutils.exe`
-- `hadoop.dll`
-
-Java 17 is used for local Spark execution.
-
-## Git Commit
-
-Phase 6 implementation was committed as:
-
-`599e493 Implement Phase 6 Bronze ingestion`
-
-Working tree is clean after the Phase 6 commit.
+Validated in workspace: `workspace.bronze.bronze_*` with expected row counts.
